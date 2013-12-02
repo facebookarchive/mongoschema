@@ -4,7 +4,7 @@ mongoschema
 `mongoschema` is a tool that runs over a Collection in a Mongo DB, and
 generates a struct with appropriate types and bson tags.
 
-  go get github.com/ParsePlatform/mongoschema
+    go get github.com/ParsePlatform/mongoschema
 
 For example, lets make a collection with some data:
 
