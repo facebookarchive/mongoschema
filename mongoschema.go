@@ -16,7 +16,7 @@ import (
 	"labix.org/v2/mgo/bson"
 )
 
-var errEmptyURL = errors.New("mongoschema: no URL specificed")
+var errEmptyURL = errors.New("mongoschema: no URL specified")
 
 func main() {
 	var generator Generator
