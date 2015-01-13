@@ -16,7 +16,7 @@ import (
 	"gopkg.in/mgo.v2/bson"
 )
 
-var errEmptyURL = errors.New("mongoschema: no URL specificed")
+var errEmptyURL = errors.New("mongoschema: no URL specified")
 
 func main() {
 	var generator Generator
